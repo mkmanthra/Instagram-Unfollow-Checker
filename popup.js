@@ -3,6 +3,11 @@ let following = [];
 
 const status = document.getElementById("status");
 
+function setStatus(text, isError = false) {
+    status.textContent = text;
+    status.style.color = isError ? "#f7251a" : ""; 
+}
+
 function updateCounts() {
     document.getElementById("followersCount").textContent = followers.length;
     document.getElementById("followingCount").textContent = following.length;
@@ -39,7 +44,7 @@ async function scan(type) {
         },
         response => {
             if (chrome.runtime.lastError) {
-                status.textContent = "Refresh Instagram and try again.";
+                status.textContent = "Refresh Instagram Page and try again.";
                 return;
             }
 
