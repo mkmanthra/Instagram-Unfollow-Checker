@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Instagram Follow Checker",
+  "version": "6.0",
+  "description": "Compare Instagram followers and following.",
+  "permissions": ["storage"],
+  "host_permissions": ["https://www.instagram.com/*"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.instagram.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Instagram Checker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<h1>Instagram Checker</h1>
+<p class="subtitle">Find who doesn't follow you back.</p>
+
+<div class="notice">Open Followers or Following before scanning.</div>
+
+<button id="scanFollowers">Scan Followers</button>
+<div class="counter">Followers: <strong id="followersCount">0</strong></div>
+
+<button id="scanFollowing">Scan Following</button>
+<div class="counter">Following: <strong id="followingCount">0</strong></div>
+
+<button id="compare" class="compare">Compare</button>
+<button id="clear" class="clear">Clear Saved Data</button>
+
+<div id="status">Ready.</div>
+
+<div class="result">
+<h2>Not Following Back</h2>
+<div id="users">No results yet.</div>
+</div>
+</div>
+<script src="popup.js"></script>
+</body>
+</html>
