@@ -1,21 +1,20 @@
 # Instagram Follow Checker
 
-A Chrome extension that scans Instagram's visible Followers and Following lists and compares them to find accounts that don't follow you back.
+A Chrome extension that scans Instagram's visible Followers and Following lists and compares them to find accounts that DOESN'T FOLLOWS YOU BACK.
 
 ## Features
 
 * Scan Instagram Followers
 * Scan Instagram Following
 * Handles Instagram's lazy-loaded lists
-* Automatically scrolls through long lists
-* Please wait until it checkes whole Followers and Following
-* You'll get Followers and Following Numbers, Then Click Compare
-* Removes duplicate usernames
-* Saves scanned data locally
+* AUTOMATICALLY scrolls through long lists
+* PLEASE WAIT until it checkes whole Followers and Following
+* AFTER You got Followers and Following Numbers, Then Click COMPARE
+* Removes DUPLICATE usernames
+* Saves scanned data locally, So Data doesn't lose
 * Compares Followers and Following
 * Shows accounts that don't follow you back
 * No Instagram password required
-* No automated follow/unfollow actions
 
 ## Project Structure
 
@@ -31,16 +30,17 @@ instagram-checker/
 
 ## How It Works
 
-1. Open Instagram in Chrome.
-2. Open your Followers list.
-3. Open the extension.
-4. Click **Scan Followers**.
-5. Wait until the scan finishes.
-6. Close the extension.
-7. Open your Following list.
-8. Open the extension again.
-9. Click **Scan Following**.
-10. Click **Compare**.
+1. Open Instagram Official Website in Chrome.
+2. Log in to your Instagram account in Instagram Website.
+3. Open your Followers list.
+4. Open the extension.
+5. Click **Scan Followers**.
+6. Please Wait until the scan finishes.
+7. Close the extension.
+8. Open your Following list.
+9. Open the extension again.
+10. Click **Scan Following**.
+11. Click **Compare**.
 
 The extension stores the scanned lists locally using Chrome Storage and compares the usernames to find accounts you follow that do not appear in your Followers list.
 
@@ -101,15 +101,6 @@ Instagram uses dynamically loaded and virtualized lists. The extension therefore
 The extension depends on Instagram's current website structure. If Instagram changes its interface or DOM structure, scanning may need to be updated.
 
 This project is intended for use with the user's own Instagram account and visible Instagram data. It does not request Instagram passwords or perform automated follow/unfollow actions.
-
-## Technologies
-
-* HTML
-* CSS
-* JavaScript
-* Chrome Extensions Manifest V3
-* Chrome Storage API
-* DOM APIs
 
 ## License
 

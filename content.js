@@ -104,7 +104,7 @@ async function scanList(type) {
 
     if (!container) {
         return {
-            error: "Open the Followers/Following window first."
+            error: "Make sure if you Opened the Followers/Following window first."
         };
     }
 

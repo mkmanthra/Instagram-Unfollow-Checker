@@ -84,7 +84,7 @@ document.getElementById("scanFollowing").onclick = () => {
 
 document.getElementById("compare").onclick = () => {
     if (!followers.length || !following.length) {
-        status.textContent = "Scan both lists first.";
+        status.textContent = "Scan both Followers and Following lists first.";
         return;
     }
 
